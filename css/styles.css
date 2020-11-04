@@ -37,6 +37,7 @@ body {
 }
 
 main {
+	margin: 0 2rem;
 	display: flex;
 	flex-direction: row;
 	align-items: flex-end;
@@ -63,6 +64,7 @@ main {
 	background-color: var(--very-dark-blue);
 	border-radius: 5px;
 	margin: 0 0.5rem;
+	cursor: pointer;
 }
 
 #progress {
@@ -161,7 +163,7 @@ h1 span {
 	body {
 		background: url("../images/bg-mobile.png");
 		background-repeat: no-repeat;
-		background-size: 100%;
+		background-size: cover;
 		background-position: 0;
 	}
 
@@ -171,7 +173,9 @@ h1 span {
 	}
 
 	#actions {
+		width: 100%;
 		margin: 0 auto;
+		padding-right: 5rem;
 	}
 
 	.buttons > img {
